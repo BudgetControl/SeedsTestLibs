@@ -4,7 +4,7 @@ namespace Budgetcontrol\Seeds\Resources;
 /**
  * Represents a seed for generating test data.
  */
-class Seeds {
+class Seed {
     
     /**
      * Runs all the seeds.

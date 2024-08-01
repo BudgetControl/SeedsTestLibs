@@ -69,7 +69,7 @@ class DebitSeeds
 
         foreach ($payee as $payee) {
             $payee['amount'] = $payee['amount'] * -1;
-            \Budgetcontrol\Seeds\Domain\Model\Debit::create($payee);
+            \Budgetcontrol\Library\Model\Debit::create($payee);
         }
     }
 }
