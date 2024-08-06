@@ -1,6 +1,22 @@
 <?php
 namespace Budgetcontrol\Seeds\Resources;
 
+use Budgetcontrol\Seeds\Resources\Seeds\BudgetSeed;
+use Budgetcontrol\Seeds\Resources\Seeds\CategorySeeders;
+use Budgetcontrol\Seeds\Resources\Seeds\CurrencySeeders;
+use Budgetcontrol\Seeds\Resources\Seeds\DebitSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\ExpenseSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\IncomeSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\LabelSeeders;
+use Budgetcontrol\Seeds\Resources\Seeds\ModelsSeed;
+use Budgetcontrol\Seeds\Resources\Seeds\PayeesSeed;
+use Budgetcontrol\Seeds\Resources\Seeds\PaymentTypeSeeders;
+use Budgetcontrol\Seeds\Resources\Seeds\PlannedEntriesSeed;
+use Budgetcontrol\Seeds\Resources\Seeds\TransferSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\UserSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\WalletSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\WorkspaceSeeds;
+
 /**
  * Represents a seed for generating test data.
  */
@@ -12,11 +28,24 @@ class Seed {
      * @return void
      */
     public function runAllSeeds() {
-        $seedClasses = $this->getSeedClasses();
 
-        foreach ($seedClasses as $seedClass) {
-            $seedClass::run();
-        }
+        // firs run User seed and then Workspace
+        UserSeeds::run();
+        CategorySeeders::run();
+        PaymentTypeSeeders::run();
+        CurrencySeeders::run();
+        WorkspaceSeeds::run();
+        LabelSeeders::run();
+        WalletSeeds::run();
+        IncomeSeeds::run();
+        ExpenseSeeds::run();
+        TransferSeeds::run();
+        PayeesSeed::run();
+        DebitSeeds::run();
+        ModelsSeed::run();
+        PlannedEntriesSeed::run();
+        BudgetSeed::run();
+
     }
 
     /**
@@ -55,7 +84,7 @@ class Seed {
 
         $seedClasses = array_map(function ($file) use ($seedDirectory) {
             $className = pathinfo($file, PATHINFO_FILENAME);
-            return "Seeds\\$className";
+            return "Budgetcontrol\\Seeds\\Resources\\Seeds\\$className";
         }, $seedFiles);
 
         return $seedClasses;

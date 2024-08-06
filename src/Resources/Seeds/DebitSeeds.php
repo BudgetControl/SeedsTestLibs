@@ -1,9 +1,12 @@
 <?php
+declare(strict_types=1);
+
+namespace Budgetcontrol\Seeds\Resources\Seeds;
 
 use Budgetcontrol\Library\Entity\Entry as EntryType;
-use Illuminate\Support\Carbon;
+use \DateTime;
 
-class DebitSeeds
+class DebitSeeds extends Seed
 {
 
     public static function run() : void
@@ -17,17 +20,17 @@ class DebitSeeds
                 "category_id" => 12,
                 "account_id" => 4,
                 "currency_id" => 1,
-                "payment_type" => 1,
+                "payment_type_id" => 1,
                 "end_date_time" =>  $dateTime->modify("+20 days")->format('Y-m-d H:i:s'),
                 "date_time" =>  $dateTime->modify("+20 days")->format('Y-m-d H:i:s'),
                 "label" => [],
                 "waranty" => 1,
                 "confirmed" => 1,
-                'type' => EntryType::incoming->value,
+                'type' => EntryType::debit->value,
                 'workspace_id' => 1,
                 'account_id' => 1,
                 'payee_id' => 1,
-                'uuid' => 'f7b3b3b0-0b7b-11ec-82a8-0242ac130003',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
             ],
             [
                 "amount" => rand(1, 1000),
@@ -35,14 +38,14 @@ class DebitSeeds
                 "category_id" => 12,
                 "account_id" => 4,
                 "currency_id" => 1,
-                "payment_type" => 1,
+                "payment_type_id" => 1,
                 "end_date_time" =>  $dateTime->modify("+20 days")->format('Y-m-d H:i:s'),
                 "date_time" =>  $dateTime->format('Y-m-d H:i:s'),
                 "label" => [],
                 "waranty" => 1,
                 "confirmed" => 1,
-                'uuid' => 'f7d92908-bc1a-4336-8c2d-fb1648eacbe6',
-                'type' => EntryType::incoming->value,
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
+                'type' => EntryType::debit->value,
                 'workspace_id' => 1,
                 'account_id' => 1,
                 'payee_id' => 1,
@@ -53,14 +56,14 @@ class DebitSeeds
                 "category_id" => 12,
                 "account_id" => 4,
                 "currency_id" => 1,
-                "payment_type" => 1,
+                "payment_type_id" => 1,
                 "end_date_time" =>  $dateTime->modify("+20 days")->format('Y-m-d H:i:s'),
                 "date_time" =>  $dateTime->format('Y-m-d H:i:s'),
                 "label" => [],
                 "waranty" => 1,
                 "confirmed" => 1,
-                'uuid' =>  '2b598724-4766-4bec-9529-da3196533d22',
-                'type' => EntryType::incoming->value,
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
+                'type' => EntryType::debit->value,
                 'workspace_id' => 1,
                 'account_id' => 1,
                 'payee_id' => 1,

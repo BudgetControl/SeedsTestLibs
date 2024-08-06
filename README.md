@@ -16,6 +16,4 @@ class MySeed extends \Phinx\Seed\AbstractSeed {
 
 ## Use a test migrations
 On phinx configuration insert migration library path
-```
 vendor/budgetcontrol/src/Resources/Migrations
-```

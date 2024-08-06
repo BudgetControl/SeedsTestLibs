@@ -1,9 +1,11 @@
 <?php
+declare(strict_types=1);
+
+namespace Budgetcontrol\Seeds\Resources\Seeds;
 
 use Budgetcontrol\Library\Model\Wallet;
-use Phinx\Seed\AbstractSeed;
 
-class WalletSeeds
+class WalletSeeds extends Seed
 {
 
     public static function run() : void
@@ -20,7 +22,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '04628d9f-eadc-498c-89df-9b846560ba6f',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -34,7 +36,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '3f7102f9-b5cb-4482-af46-f183a0a771b5',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -48,7 +50,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => 'efe863d3-4296-4df2-91c9-714dd5128583',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -62,7 +64,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '50bb8d7f-8f64-4597-b74d-d07d6b7a646c',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -76,7 +78,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '265d2a1a-fb4d-4342-816d-f4474113fe74',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -90,7 +92,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '650d0e89-224b-4247-9698-46f5aaf8bc64',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -104,7 +106,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '17aa68f4-afff-4073-8264-58e3a6ea0147',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
             [
@@ -118,7 +120,7 @@ class WalletSeeds
                 "currency" => 2,
                 "balance" => 0,
                 "exclude_from_stats" => false,
-                'uuid' => '2127070f-63a4-4334-8c3b-9939ba4bb090',
+                'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 "workspace_id" => 1
             ],
         ];
