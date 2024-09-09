@@ -20,9 +20,9 @@
             "email": "marco.defelice@mlabfactory.it"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "RC",
     "require-dev": {
         "ramsey/uuid": "^4.7",
-        "budgetcontrol/library": "dev-main"
+        "budgetcontrol/library": "^1.0"
     }
 }
