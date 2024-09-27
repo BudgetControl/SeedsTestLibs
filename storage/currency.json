@@ -3,7 +3,7 @@
     "name": "United States Dollar",
     "label": "USD",
     "icon": "$",
-    "slug": "united-states-dollar"
+    "slug": "united_states_dollar"
   },
   {
     "name": "Euro",
@@ -15,108 +15,108 @@
     "name": "British Pound",
     "label": "GBP",
     "icon": "£",
-    "slug": "british-pound"
+    "slug": "british_pound"
   },
   {
     "name": "Japanese Yen",
     "label": "JPY",
     "icon": "¥",
-    "slug": "japanese-yen"
+    "slug": "japanese_yen"
   },
   {
     "name": "Swiss Franc",
     "label": "CHF",
     "icon": "CHF",
-    "slug": "swiss-franc"
+    "slug": "swiss_franc"
   },
   {
     "name": "Canadian Dollar",
     "label": "CAD",
     "icon": "CA$",
-    "slug": "canadian-dollar"
+    "slug": "canadian_dollar"
   },
   {
     "name": "Australian Dollar",
     "label": "AUD",
     "icon": "A$",
-    "slug": "australian-dollar"
+    "slug": "australian_dollar"
   },
   {
     "name": "New Zealand Dollar",
     "label": "NZD",
     "icon": "NZ$",
-    "slug": "new-zealand-dollar"
+    "slug": "new_zealand_dollar"
   },
   {
     "name": "Swedish Krona",
     "label": "SEK",
     "icon": "SEK",
-    "slug": "swedish-krona"
+    "slug": "swedish_krona"
   },
   {
     "name": "Norwegian Krone",
     "label": "NOK",
     "icon": "NOK",
-    "slug": "norwegian-krone"
+    "slug": "norwegian_krone"
   },
   {
     "name": "Danish Krone",
     "label": "DKK",
     "icon": "DKK",
-    "slug": "danish-krone"
+    "slug": "danish_krone"
   },
   {
     "name": "Singapore Dollar",
     "label": "SGD",
     "icon": "SGD",
-    "slug": "singapore-dollar"
+    "slug": "singapore_dollar"
   },
   {
     "name": "Hong Kong Dollar",
     "label": "HKD",
     "icon": "HKD",
-    "slug": "hong-kong-dollar"
+    "slug": "hong_kong_dollar"
   },
   {
     "name": "Chinese Yuan",
     "label": "CNY",
     "icon": "¥",
-    "slug": "chinese-yuan"
+    "slug": "chinese_yuan"
   },
   {
     "name": "Russian Ruble",
     "label": "RUB",
     "icon": "₽",
-    "slug": "russian-ruble"
+    "slug": "russian_ruble"
   },
   {
     "name": "Indian Rupee",
     "label": "INR",
     "icon": "₹",
-    "slug": "indian-rupee"
+    "slug": "indian_rupee"
   },
   {
     "name": "Indonesian Rupiah",
     "label": "IDR",
     "icon": "Rp",
-    "slug": "indonesian-rupiah"
+    "slug": "indonesian_rupiah"
   },
   {
     "name": "Brazilian Real",
     "label": "BRL",
     "icon": "R$",
-    "slug": "brazilian-real"
+    "slug": "brazilian_real"
   },
   {
     "name": "Mexican Peso",
     "label": "MXN",
     "icon": "MXN",
-    "slug": "mexican-peso"
+    "slug": "mexican_peso"
   },
   {
     "name": "Argentine Peso",
     "label": "ARS",
     "icon": "$",
-    "slug": "argentine-peso"
+    "slug": "argentine_peso"
   }
 ]

@@ -7,6 +7,10 @@
         "budgetcontrol/library" : {
             "type":"vcs",
             "url":"https://github.com/BudgetControl/Library.git"
+        },
+        "budgetcontrol/libs-cryptable" : {
+            "type":"vcs",
+            "url":"git@github.com:BudgetControl/LibsCryptable.git"
         }
     },
     "autoload": {
@@ -22,7 +26,9 @@
     ],
     "minimum-stability": "RC",
     "require-dev": {
-        "ramsey/uuid": "^4.7",
-        "budgetcontrol/library": "^1.0"
+        "ramsey/uuid": "^4.7"
+    },
+    "require": {
+        "budgetcontrol/library": "^1.2"
     }
 }

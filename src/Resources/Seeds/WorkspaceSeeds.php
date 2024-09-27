@@ -10,8 +10,6 @@ class WorkspaceSeeds extends Seed
 
     public static function run() : void
     {
-        $dateTime = new DateTime();
-
         \Budgetcontrol\Library\Model\Workspace::create([
             'name' => 'test',
             'description' => 'test',

@@ -1,15 +1,15 @@
   [
     {
       "label": "Credit Card",
-      "slug": "credit-card"
+      "slug": "credit_card"
     },
     {
       "label": "Debit Card",
-      "slug": "debit-card"
+      "slug": "debit_card"
     },
     {
       "label": "Bank Transfer",
-      "slug": "bank-transfer"
+      "slug": "bank_transfer"
     },
     {
       "label": "Cash",
