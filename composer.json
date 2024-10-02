@@ -24,7 +24,7 @@
             "email": "marco.defelice@mlabfactory.it"
         }
     ],
-    "minimum-stability": "RC",
+    "minimum-stability": "stable",
     "require-dev": {
         "ramsey/uuid": "^4.7"
     },

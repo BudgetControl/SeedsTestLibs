@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "217db19b435bdc05166710dd088d8b54",
+    "content-hash": "6fb420ac44a24197b67068863ed9a919",
     "packages": [
         {
             "name": "brick/math",
@@ -113,16 +113,16 @@
         },
         {
             "name": "budgetcontrol/library",
-            "version": "v1.2",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BudgetControl/Library.git",
-                "reference": "caabaa003d3849f15cbc3e66514ac7f47033440c"
+                "reference": "5721edaae2bea55b9b7cf343a91bc91d2d6a20da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BudgetControl/Library/zipball/caabaa003d3849f15cbc3e66514ac7f47033440c",
-                "reference": "caabaa003d3849f15cbc3e66514ac7f47033440c",
+                "url": "https://api.github.com/repos/BudgetControl/Library/zipball/5721edaae2bea55b9b7cf343a91bc91d2d6a20da",
+                "reference": "5721edaae2bea55b9b7cf343a91bc91d2d6a20da",
                 "shasum": ""
             },
             "require": {
@@ -144,9 +144,9 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/BudgetControl/Library/tree/v1.2"
+                "source": "https://github.com/BudgetControl/Library/tree/v1.2.1"
             },
-            "time": "2024-09-27T10:06:04+00:00"
+            "time": "2024-09-27T16:17:25+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -310,16 +310,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "465044f988f9a07c901388beeb15201d711387aa"
+                "reference": "4d333ea19a27230b424b9af56f34cd658b5bbce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/465044f988f9a07c901388beeb15201d711387aa",
-                "reference": "465044f988f9a07c901388beeb15201d711387aa",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/4d333ea19a27230b424b9af56f34cd658b5bbce2",
+                "reference": "4d333ea19a27230b424b9af56f34cd658b5bbce2",
                 "shasum": ""
             },
             "require": {
@@ -361,11 +361,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-09-25T15:08:32+00:00"
+            "time": "2024-09-27T14:54:48+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -411,7 +411,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -462,7 +462,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -578,7 +578,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -624,16 +624,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v11.25.0",
+            "version": "v11.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "ead1796b74be915705e66a695fce8d3cd4bb9034"
+                "reference": "0431fbb96752bb8a13136a53e4be345fdc8484c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/ead1796b74be915705e66a695fce8d3cd4bb9034",
-                "reference": "ead1796b74be915705e66a695fce8d3cd4bb9034",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0431fbb96752bb8a13136a53e4be345fdc8484c2",
+                "reference": "0431fbb96752bb8a13136a53e4be345fdc8484c2",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-09-25T07:16:58+00:00"
+            "time": "2024-09-30T14:29:28+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1670,7 +1670,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "RC",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
