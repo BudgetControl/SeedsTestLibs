@@ -17,12 +17,13 @@ class WorkspaceSeeds extends Seed
             'user_id' => 1,
             'uuid' => \Ramsey\Uuid\Uuid::uuid4()->toString(),
         ]);
+
+        // set relation with user and workspace
+        $user = \Budgetcontrol\Library\Model\User::find(1);
+        $workspace = \Budgetcontrol\Library\Model\Workspace::where('uuid', $wsid)->first();
+    
+        $workspace->users()->attach($user);
+        $workspace->save();
+        
     }
-
-    // set relation with user and workspace
-    $user = \Budgetcontrol\Library\Model\User::find(1);
-    $workspace = \Budgetcontrol\Library\Model\Workspace::where('uuid', $wsid)->first();
-
-    $workspace->users()->attach($user);
-    $workspace->save();
 }
