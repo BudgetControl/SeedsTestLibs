@@ -21,7 +21,7 @@ class GoalSeeds extends Seed
                 "due_date" => "2028-06-30T14:41:00.000Z",
                 "description" => "test",
                 "status" => "active",
-                "uuid" =>  \Ramsey\Uuid\Uuid::uuid4()->toString(),
+                "uuid" =>  '148defec-ae28-4779-bf4e-b6e999c93f26',
             ],
             [
                 "category_icon" => "fa-solid fa-graduation-cap",
