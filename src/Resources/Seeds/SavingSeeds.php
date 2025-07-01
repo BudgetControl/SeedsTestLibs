@@ -97,7 +97,7 @@ class SavingSeeds extends Seed
                 "label" => [],
                 "waranty" => 1,
                 "confirmed" => 1,
-                'uuid' =>  'd373d245-512d-4bff-b414-9d59781be3ee',
+                'uuid' =>  \Ramsey\Uuid\Uuid::uuid4()->toString(),
                 'type' => EntryType::saving->value,
                 'workspace_id' => 1,
                 'account_id' => 1,

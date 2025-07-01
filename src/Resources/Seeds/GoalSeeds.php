@@ -20,7 +20,7 @@ class GoalSeeds extends Seed
                 "amount" => "1000",
                 "due_date" => "2028-06-30T14:41:00.000Z",
                 "description" => "test",
-                "status" => "Active",
+                "status" => "active",
                 "uuid" =>  \Ramsey\Uuid\Uuid::uuid4()->toString(),
             ],
             [
@@ -30,7 +30,7 @@ class GoalSeeds extends Seed
                 "due_date" => $dateTime->modify("+20 days")->format('Y-m-d H:i:s'),
                 "description" => "test",
                 "balance" => "10000",
-                "status" => "Complete",
+                "status" => "complete",
                 "uuid" =>  \Ramsey\Uuid\Uuid::uuid4()->toString(),
             ]
         ];
