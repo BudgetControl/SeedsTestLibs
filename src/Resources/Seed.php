@@ -1,17 +1,21 @@
 <?php
 namespace Budgetcontrol\Seeds\Resources;
 
+use Budgetcontrol\Library\Model\Goal;
+use Budgetcontrol\Library\Model\Saving;
 use Budgetcontrol\Seeds\Resources\Seeds\BudgetSeed;
 use Budgetcontrol\Seeds\Resources\Seeds\CategorySeeders;
 use Budgetcontrol\Seeds\Resources\Seeds\CurrencySeeders;
 use Budgetcontrol\Seeds\Resources\Seeds\DebitSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\ExpenseSeeds;
+use Budgetcontrol\Seeds\Resources\Seeds\GoalSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\IncomeSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\LabelSeeders;
 use Budgetcontrol\Seeds\Resources\Seeds\ModelsSeed;
 use Budgetcontrol\Seeds\Resources\Seeds\PayeesSeed;
 use Budgetcontrol\Seeds\Resources\Seeds\PaymentTypeSeeders;
 use Budgetcontrol\Seeds\Resources\Seeds\PlannedEntriesSeed;
+use Budgetcontrol\Seeds\Resources\Seeds\SavingSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\TransferSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\UserSeeds;
 use Budgetcontrol\Seeds\Resources\Seeds\WalletSeeds;
@@ -45,6 +49,8 @@ class Seed {
         ModelsSeed::run();
         PlannedEntriesSeed::run();
         BudgetSeed::run();
+        GoalSeeds::run();
+        SavingSeeds::run();
 
     }
 
